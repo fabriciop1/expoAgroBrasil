@@ -8,3 +8,13 @@ Repositório do projeto ExpoAgro Brasil para a disciplina de Projetão do curso 
 
 ![alt text](https://github.com/vanecordelins/expoAgroBrasil/blob/master/imagem_logo_readme.png)
 
+
+## Build do código no Windows
+
+Após o clone do projeto na máquina local, basta, pela linha de comando do Windows, executar:
+
+```bash
+./gradlew installDebug --stacktrace
+```
+
+Obs.: É necessário garantir que exista um emulador ou dispositivo android conectado e rodando na máquina. 
